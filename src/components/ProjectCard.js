@@ -3,7 +3,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LaunchIcon from "@material-ui/icons/Launch";
 export const ProjectCard = ({ item }) => {
   return (
-    <div className="w-full flex flex-wrap sm:flex-nowrap shadow-md p-2 space-y-2">
+    <div className="w-full flex flex-wrap  shadow-md p-2 space-y-2">
       <div className="space-y-2">
         <h1 className="font-bold text-[1.5rem] sm:text-[1.7rem] text-blue-600">
           {item.title}
